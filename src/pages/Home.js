@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, Container, Button, Nav } from "react-bootstrap";
+import { Card, Container, Nav } from "react-bootstrap";
 import evertonbrow_title from "../images/properties/everton-brow/title.jpg";
 
 export default class Home extends Component {
