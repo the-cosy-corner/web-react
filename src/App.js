@@ -4,6 +4,7 @@ import "./App.css";
 import "./index.css";
 import Home from "./pages/Home";
 import EvertonBrow from "./pages/EvertonBrow";
+import EvertonBrowQrCode from "./pages/QR-Codes/EvertonBrowQRCode";
 import NoPage from "./pages/NoPage";
 import TopMenu from "./components/TopMenu";
 
@@ -25,6 +26,10 @@ export class App extends Component {
             {
               path: "everton-brow",
               element: <EvertonBrow />,
+            },
+            {
+              path: "everton-brow/qr",
+              element: <EvertonBrowQrCode />,
             },
             {
               path: "*",
