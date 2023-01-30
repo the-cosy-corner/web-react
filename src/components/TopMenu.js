@@ -11,7 +11,7 @@ class TopMenu extends Component {
   }
   render() {
     return (
-      <Navbar bg="secondary" expand="sm" style={{ "padding-bottom": "2rem" }}>
+      <Navbar bg="light" expand="sm" style={{ "padding-bottom": "2rem" }}>
         <Container>
           <Navbar.Brand href="/home">The Cosy Corner</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

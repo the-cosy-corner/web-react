@@ -11,7 +11,7 @@ import TopMenu from "./components/TopMenu";
 export class App extends Component {
   render() {
     return (
-      <>
+      <div class="bg">
         <TopMenu />
         <RouterProvider
           router={createBrowserRouter([
@@ -37,7 +37,7 @@ export class App extends Component {
             },
           ])}
         />
-      </>
+      </div>
     );
   }
 }
