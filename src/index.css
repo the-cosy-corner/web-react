@@ -6,11 +6,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("images/tinywow_Jud_cartoon_medow_sunshine_small_house_to_the_right_side_minima_29536605-689e-401f-ad62-d975f785043b_12716337.png");
+  /*background-image: url("images/tinywow_Jud_cartoon_medow_sunshine_small_house_to_the_right_side_minima_29536605-689e-401f-ad62-d975f785043b_12716337.png");*/
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bg
+{
+  margin-top: 2em;
 }
 
 code {
@@ -27,6 +32,3 @@ code {
   margin-bottom: 3rem;
 }
 
-.card{
-  background-color: rgba(245, 245, 245, 5);
-}
