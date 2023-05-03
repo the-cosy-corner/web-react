@@ -73,8 +73,121 @@ export default class EvertonBrow extends Component {
             </Accordion.Item>
           </Accordion>
           <br />
-          <h3>We hope you have a fantastic stay and thank you for following our house rules!</h3>
-          <div style={{ height: "auto", margin: "0 auto", maxWidth: 64, width: "100%", display:"none" }}>
+          <h4>Places to Visit</h4>
+          <Accordion>
+            <Accordion.Item eventKey="beatles">
+              <Accordion.Header>The Beatles Story</Accordion.Header>
+              <Accordion.Body>
+                This immersive museum tells the story of the iconic band and their rise to fame. You can explore exhibits, listen to music, and learn about the cultural impact of The Beatles. Check
+                out their website for more information: <a href="https://www.beatlesstory.com/">beatlesstory.com</a>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="albert-dock">
+              <Accordion.Header>Royal Albert Dock</Accordion.Header>
+              <Accordion.Body>
+                This iconic waterfront landmark is a UNESCO World Heritage site and home to a range of shops, restaurants, and attractions. You can take a leisurely stroll along the dock and enjoy the
+                stunning views. Check out their website for more information: <a href="https://www.albertdock.com/">albertdock.com</a>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="liverpool-cathedral">
+              <Accordion.Header>Liverpool Cathedral</Accordion.Header>
+              <Accordion.Body>
+                This stunning cathedral is the largest in the UK and is home to beautiful stained-glass windows, a tower with panoramic views, and an art gallery. Check out their website for more
+                information: <a href="https://www.liverpoolcathedral.org.uk/">liverpoolcathedral.org.uk</a>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="anfield">
+              <Accordion.Header>Anfield Stadium</Accordion.Header>
+              <Accordion.Body>
+                This is the home of Liverpool FC and a must-visit destination for football fans. You can book a stadium tour to learn more about the club's history and see the pitch up close. Check
+                out their website for more information: <a href="https://www.liverpoolfc.com/anfield/stadium-tours">liverpoolfc.com/anfield/stadium-tours</a>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="goodison">
+              <Accordion.Header>Goodison Park</Accordion.Header>
+              <Accordion.Body>
+                This is the home of Everton FC and also offers stadium tours. You can book a tour to see behind the scenes and learn about the club's history. Check out their website for more
+                information: <a href="https://www.evertonfc.com/stadium-tours">evertonfc.com/stadium-tours</a>
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+          <br />
+          <h4>Places to Eat</h4>
+          <Accordion>
+            <Accordion.Item eventKey="italian">
+              <Accordion.Header>The Italian Club Fish</Accordion.Header>
+              <Accordion.Body>
+                This family-owned restaurant offers delicious seafood and Italian-inspired dishes. Check out their website for more information:{" "}
+                <a href="https://www.theitalianclubfish.co.uk/">theitalianclubfish.co.uk</a>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="maray">
+              <Accordion.Header>Maray</Accordion.Header>
+              <Accordion.Body>
+                This trendy restaurant serves delicious small plates and cocktails in a cosy atmosphere. Check out their website for more information:{" "}
+                <a href="https://www.maray.co.uk/">maray.co.uk</a>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="baltic">
+              <Accordion.Header>The Baltic Market</Accordion.Header>
+              <Accordion.Body>
+                This bustling street food market has a wide variety of food and drink options, from pizza to craft beer. Check out their website for more information:{" "}
+                <a href="https://www.balticmarket.co.uk/">balticmarket.co.uk</a>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="mowgli">
+              <Accordion.Header>Mowgli</Accordion.Header>
+              <Accordion.Body>
+                This colourful and vibrant restaurant serves delicious Indian street food, including curries, chaat, and biryanis. Check out their website for more information:{" "}
+                <a href="https://mowglistreetfood.com/">mowglistreetfood.com</a>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="philharmonic">
+              <Accordion.Header>The Philharmonic Dining Rooms</Accordion.Header>
+              <Accordion.Body>
+                This historic pub has stunning Victorian decor and offers a range of pub grub and drinks. Check out their website for more information:{" "}
+                <a href="https://www.nicholsonspubs.co.uk/restaurants/northwest/thephilharmonicdiningroomsliverpool">nicholsonspubs.co.uk/restaurants/northwest/thephilharmonicdiningroomsliverpool</a>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="our-favourite">
+              <Accordion.Header>Our favourite places to eat </Accordion.Header>
+              <Accordion.Body>Bold Street restaurants (variety of cuisines) Baltic Market offering variety of street food</Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+          <br />
+          <h4>Things to See</h4>
+
+          <Accordion>
+            <Accordion.Item eventKey="st-george-hall">
+              <Accordion.Header>St. George's Hall</Accordion.Header>
+              <Accordion.Body>
+                This stunning neo-classical building hosts a range of events, from concerts to exhibitions. You can also take a tour to learn more about the history and architecture of the hall. Check
+                out their website for more information: <a href="https://www.stgeorgeshallliverpool.co.uk/">stgeorgeshallliverpool.co.uk</a>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="sefton-park">
+              <Accordion.Header>Sefton Park</Accordion.Header>
+              <Accordion.Body>
+                This beautiful park has a range of gardens, lakes, and monuments, and is perfect for a leisurely stroll. Check out their website for more information:{" "}
+                <a href="https://liverpool.gov.uk/parks-and-greenspaces/sefton-park/">liverpool.gov.uk/parks-and-greenspaces/sefton-park</a>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="Liverpool-one">
+              <Accordion.Header>Liverpool ONE</Accordion.Header>
+              <Accordion.Body>
+                This bustling shopping district has a range of high street and designer stores, as well as cafes and restaurants. Check out their website for more information:{" "}
+                <a href="https://www.liverpool-one.com/">liverpool-one.com</a>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="Liverpool-empire">
+              <Accordion.Header>Liverpool Empire Theatre</Accordion.Header>
+              <Accordion.Body>
+                This stunning theatre hosts a range of shows, from musicals to comedy. Check out their website:{" "}
+                <a href="https://www.liverpooltheatres.com/venue/liverpool-empire-theatre_liverpool">liverpooltheatres.com/venue/liverpool-empire-theatre_liverpool</a>
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+          <div style={{ height: "auto", margin: "0 auto", maxWidth: 64, width: "100%", display: "none" }}>
             <QRCode size={256} style={{ height: "auto", maxWidth: "100%", width: "100%" }} value={"https://staging--the-cosy-corner-dev.netlify.app/everton-brow"} viewBox={`0 0 256 256`} />
           </div>
         </Container>
