@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Container, Accordion } from "react-bootstrap";
 import QRCode from "react-qr-code";
+import YouTube from "react-youtube";
 
 export default class EvertonBrow extends Component {
   state = {};
@@ -70,6 +71,27 @@ export default class EvertonBrow extends Component {
             <Accordion.Item eventKey="instructions">
               <Accordion.Header>House Instructions</Accordion.Header>
               <Accordion.Body>Equipment instructions are stored in cabinet next to the front door</Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
+          <br />
+          <h4>Instructions</h4>
+          <Accordion>
+            <Accordion.Item eventKey="instructions">
+              <Accordion.Header>
+                {" "}
+                <a href="https://youtube.com/shorts/lQ1HW0kjgLM" target={"_blank"}>
+                  How To use the Nest Thermostat
+                </a>
+              </Accordion.Header>
+              <Accordion.Body></Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="instructions">
+              <Accordion.Header>
+                <a href="https://youtu.be/dYHKHaQ7ziI" target={"_blank"}>
+                  How To use the Oven
+                </a>
+              </Accordion.Header>
+              <Accordion.Body></Accordion.Body>
             </Accordion.Item>
           </Accordion>
           <br />
